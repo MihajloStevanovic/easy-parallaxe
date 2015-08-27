@@ -1,5 +1,5 @@
 /**
- * Plugin: Easy Parrallaxe
+ * Plugin: Easy Parallaxe
  * Version: 1.0.0
  * Author: Mihajlo Stevanovic
  * Author URL: http://www.mihajlostevanovic.com
@@ -10,10 +10,10 @@
  * http://www.gnu.org/licenses/gpl.html
  **/
 
-/* Parrallaxe plugin */
+/* Parallaxe plugin */
 (function($) { 
 
-	$.fn.parrallaxe=function(options) { 
+	$.fn.parallaxe=function(options) { 
 		
 		//Default settings
 		var settings = {
