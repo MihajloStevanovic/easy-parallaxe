@@ -1,7 +1,7 @@
 # Easy-parallaxe
 
 ## Synopsis
-Easy Parallax is a jQuery plugin designed to parallax effects as simply as possible, on HTML Elements or pictures funds.
+Easy Parallaxe is a jQuery plugin designed to parallax effects as simply as possible, on HTML Elements or pictures funds.
 
 ## Get started
 Load easy-parallaxe.js
