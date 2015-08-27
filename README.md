@@ -5,8 +5,8 @@ Easy Parallax is a jQuery plugin designed to parallax effects as simply as possi
 
 ## Started
 Load easy-parallaxe.js
-```js
-YSLLaNuitDeLHomme.init({baseUrl:'/ysl/lndh/', locale:'en'});
+```html
+<script src="easy-parallaxe.js"></script>
 ```
 
 Init parallaxe on your HTML element
