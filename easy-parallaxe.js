@@ -13,7 +13,7 @@
 /* Parrallaxe plugin */
 (function($) { 
 
-	$.fn.parrallaxe=function(options) {   
+	$.fn.parrallaxe=function(options) { 
 		
 		//Default settings
 		var settings = {
