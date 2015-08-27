@@ -1,0 +1,60 @@
+.wrapper {
+	position: relative;
+	height: 2000px;
+	overflow: hidden;
+}
+
+.background {
+	width: 100%;
+	height: 700px;
+	background: url('file:///C:/Users/Public/Pictures/Sample%20Pictures/Lighthouse.jpg');
+	background-size: cover;
+}
+.myElement {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	left: 20%;
+	top: 200px;
+}
+.myElement2 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: green;
+	left: 60%;
+	top: 600px;
+}
+.myElement3 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: red;
+	left: 40%;
+	top: 1000px;
+}
+.myElement4 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: red;
+	left: -200px;
+}
+.myElement5 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: gray;
+	top: 1000px;
+	right: -200px;
+}
+
+.myElement6 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: orange;
+	top: 20%;
+	left: 90%;
+}
