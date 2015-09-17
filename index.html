@@ -7,6 +7,7 @@
 </head>
 <body>
 <div class="wrapper">
+	<input type="file">
 	<div class="background"></div>
 	<div class="myElement"></div>
 	<div class="myElement2"></div>
@@ -28,12 +29,13 @@
 		$('.myElement2').parallaxe({
 			speed: 0.5,
 			direction: 'top',
-			type: 'element'
+			type: 'element',
 		});
 		$('.myElement3').parallaxe({
 			speed: 0.2,
 			direction: 'top',
-			type: 'element'
+			type: 'element',
+			events: [event1,event2,event3]
 		});
 		$('.background').parallaxe({
 			speed: 1.5,
@@ -43,7 +45,7 @@
 		$('.myElement4').parallaxe({
 			speed: 0.5,
 			direction: 'right',
-			type: 'element'
+			type: 'element',
 		});
 		$('.myElement5').parallaxe({
 			speed: 0.5,

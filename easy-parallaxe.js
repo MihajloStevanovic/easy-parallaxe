@@ -17,10 +17,10 @@
 		
 		//Default settings
 		var settings = {
-			initPosition: 0,
-			speed: 2,
-			type: 'element',
-			direction: 'top'
+			type: 'element',	// Default parallaxe type
+			direction: 'top',	// Default parallaxe direction
+			speed: 2,			// Default parallaxe speed
+			events: null
 		}
 
 		// Merge parameters objects
@@ -90,10 +90,14 @@
 				$this.css(animationType, animationValue);
 			}
 
+			if (typeof parameters.events !== null) {
+				parameters.events = function();
+			}
+			
+
 			$(window).scroll(function(){
 				newPosition = $(window).scrollTop();
-				// Init the module
-				run();
+				run();	// Init the module
 			})
 
 		});
