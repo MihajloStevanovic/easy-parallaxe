@@ -90,11 +90,6 @@
 				$this.css(animationType, animationValue);
 			}
 
-			if (typeof parameters.events !== null) {
-				parameters.events = function();
-			}
-			
-
 			$(window).scroll(function(){
 				newPosition = $(window).scrollTop();
 				run();	// Init the module

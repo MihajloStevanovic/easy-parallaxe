@@ -7,7 +7,6 @@
 </head>
 <body>
 <div class="wrapper">
-	<input type="file">
 	<div class="background"></div>
 	<div class="myElement"></div>
 	<div class="myElement2"></div>
@@ -20,36 +19,6 @@
 <script src="easy-parallaxe.js"></script>
 <script>
 	$(document).ready(function(){
-		console.log(navigator);
-	if(navigator.userAgent.indexOf("FB") != -1 ) 
-    {
-         alert('FB');
-    }  
-	else if(navigator.userAgent.indexOf("Chrome") != -1 ) 
-    {
-        alert('Chrome');
-        alert(navigator.userAgent)
-    }
-    else if(navigator.userAgent.indexOf("Opera") != -1 )
-    {
-     alert('Opera');
-    }
-    else if(navigator.userAgent.indexOf("Firefox") != -1 ) 
-    {
-         alert('Firefox');
-    }
-     else if(navigator.userAgent.indexOf("Safari") != -1 ) 
-    {
-         alert('Safari');
-    }
-    else if((navigator.userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )) //IF IE > 10
-    {
-      alert('IE'); 
-    }
-    else 
-    {
-       alert('unknown');
-    }
 		//parallaxe init
 		$('.myElement').parallaxe({
 			speed: 2,
@@ -64,8 +33,7 @@
 		$('.myElement3').parallaxe({
 			speed: 0.2,
 			direction: 'top',
-			type: 'element',
-			events: [event1,event2,event3]
+			type: 'element'
 		});
 		$('.background').parallaxe({
 			speed: 1.5,
